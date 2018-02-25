@@ -14,9 +14,15 @@
             <form>
                 <div class="fieldset">
                     <label class="label">Логин</label>
-                    <input class="input" placeholder="Логин" />
+                    <input name="name" type="text" class="input input_invalid" placeholder="Логин" />
                     <div class="fieldset-error">Ошибка</div>
                 </div>
+                <div class="fieldset">
+                    <label class="label">Пароль</label>
+                    <input name="password" type="password"  class="input" placeholder="Пароль" />
+                    <div class="fieldset-error"></div>
+                </div>
+                <button type="submit" class="button">Войти</button>
             </form>
         </div>
     </section>

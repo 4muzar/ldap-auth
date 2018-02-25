@@ -58,11 +58,49 @@ section {
     box-sizing: border-box;
     position: relative;
     border: 1px solid #ccc;
-    box-shadow: inset 0 2px 1px 0 rgba(0 0 0, 0.1);
+    box-shadow: inset 0 2px 1px 0 rgba(0, 0, 0, .1);
     border-radius: 2px;
     display: inline-block;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
     outline: 0;
+}
+
+.input:hover {
+    border-color: #b8b8b8;
+}
+
+.input:focus {
+    border-color: #0af;
+}
+
+.input_invalid,
+.input_invalid:hover,
+.input_invalid:focus {
+    border-color: #ff6163;
+}
+
+.button {
+    font-size: 20px;
+    line-height: 25px;
+    color: #fff;
+    text-decoration: none;
+    vertical-align: middle;
+    position: relative;
+    margin: 0;
+    text-align: center;
+    padding: 0 15px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+    height: 40px;
+    white-space: nowrap;
+    user-select: none;
+    appearance: none;
+    cursor: pointer;
+    outline: 0;
+    background-color: #0af;
 }
