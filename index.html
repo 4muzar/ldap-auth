@@ -58,5 +58,45 @@
         </div>
     </section>
 
+    <section>
+        <div class="billet">
+            <i class="logo"></i>
+            <h2 class="header">Создать новый пароль</h2>
+            <div class="password-rules">
+                <ul class="check-list">
+                    <li class="check-list-item check-list-item_checked">От 10 до 30 символов</li>
+                    <li class="check-list-item check-list-item_checked">Три строчные буквы</li>
+                    <li class="check-list-item check-list-item_checked">Заглавная буква</li>
+                    <li class="check-list-item">Особый символ</li>
+                    <li class="check-list-item">Цифра</li>
+                    <li class="check-list-item">Пароли совпадают</li>
+                </ul>
+            </div>
+            <form>
+                <div class="fieldset">
+                    <label class="label">Новый пароль</label>
+                    <input name="password" type="password" class="input" placeholder="Новый пароль" />
+                    <div class="fieldset-error"></div>
+                </div>
+                <div class="fieldset">
+                    <label class="label">Подтверждение пароля</label>
+                    <input name="confirm-password" type="password"  class="input" placeholder="Введите пароль еще раз" />
+                    <div class="fieldset-error"></div>
+                </div>
+                <button type="submit" class="button">Сменить пароль</button>
+            </form>
+        </div>
+    </section>
+
+    <section>
+        <div class="billet">
+            <i class="logo"></i>
+            <h2 class="header">Вы сменили пароль</h2>
+            <div class="enter">
+                <a href="#" class="link">Войти</a>
+            </div>
+        </div>
+    </section>
+
 </body>
 </html>
