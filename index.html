@@ -12,6 +12,9 @@
         <div class="billet">
             <i class="logo"></i>
             <form>
+                <div class="login-common-error">
+                    <div class="alert">Неправильный логин или пароль</div>
+                </div>
                 <div class="fieldset">
                     <label class="label">Логин</label>
                     <input name="name" type="text" class="input input_invalid" placeholder="Логин" />
@@ -22,14 +25,36 @@
                     <input name="password" type="password"  class="input" placeholder="Пароль" />
                     <div class="fieldset-error"></div>
                 </div>
-                <button type="submit" class="button">Войти</button>
-                <div class="restore">
-                    <a href="#" class="link">Восстановить пароль</a>
-                </div>
+                <button type="submit" class="button">Отправить</button>
             </form>
+            <div class="restore">
+                <a href="#" class="link">Восстановить пароль</a>
+            </div>
         </div>
         <div class="notice">
             Если у вас нет досутпа в Jira или Confluence, обращайтесь на <a href="mailto:333@avito.ru" class="link">333@avito.ru</a>
+        </div>
+    </section>
+
+    <section>
+        <div class="billet">
+            <i class="logo"></i>
+            <h2 class="header">Восстановление пароля</h2>
+            <form>
+                <div class="fieldset">
+                    <label class="label">Логин</label>
+                    <input name="name" type="text" class="input" placeholder="Логин" />
+                    <div class="fieldset-error"></div>
+                </div>
+                <button type="submit" class="button">Отправить</button>
+            </form>
+        </div>
+    </section>
+
+    <section>
+        <div class="billet">
+            <i class="logo"></i>
+            <h2 class="header">Мы выслали письмо с ссылкой на создание нового пароля</h2>
         </div>
     </section>
 
